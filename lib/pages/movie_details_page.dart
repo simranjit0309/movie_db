@@ -15,7 +15,7 @@ class MovieDetailsPage extends StatelessWidget{
     // Provider.of<MovieProvider>(context,listen: false).getMovie(movieName!, context);
     return Scaffold(
       appBar: AppBar(
-        title: Text(movieName??""),
+        title: Text(movieName??"",),backgroundColor: Colors.blue
       ),
       body:  SafeArea(
           child: BlocConsumer<MovieDetailCubit,MovieDetailState>(

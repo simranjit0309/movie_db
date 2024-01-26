@@ -17,7 +17,7 @@ class MainSearchPage extends StatelessWidget{
   Widget build(BuildContext context) {
     final movieBloc =BlocProvider.of<MovieSearchBloc>(context);
     return Scaffold(
-      appBar: AppBar(title: const Text("Movie DB"),backgroundColor: Colors.red,),
+      appBar: AppBar(title: const Text("Movie DB"),backgroundColor: Colors.blue,),
       body: SafeArea(
         child: Padding(
             padding: const EdgeInsets.all(8.0),
