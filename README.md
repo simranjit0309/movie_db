@@ -4,13 +4,10 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+A simple movie database app made using Flutter and [OMBD API](https://www.omdbapi.com/) by Bryan Fritz.
+In this app, you can search for movies and series and can see details such as release date,genre,plot,rating,etc.
 
-A few resources to get you started if this is your first Flutter project:
+<a href="url"><img src="https://user-images.githubusercontent.com/54738022/225099146-4919e61d-18bd-40ca-abf5-6ec89e63cebd.jpg" align="left" height="500" width="250" ></a>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<a href="url"><img src="https://user-images.githubusercontent.com/54738022/225099715-c5aec07d-3f65-4835-bc7a-a503a742f355.jpg" align="left" height="500" width="250" ></a>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
