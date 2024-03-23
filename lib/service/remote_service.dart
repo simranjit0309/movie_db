@@ -17,7 +17,7 @@ class RemoteService{
     var responseJson;
     try {
       print("https://www.omdbapi.com/?$movieName");
-      var response = await http.post(Uri.parse("https://pixabay.com/api/?key=25136671-4eb6b141459a4bbbc71492feb&q=yellow+flowers&image_type=photo"),);
+      var response = await http.post(Uri.parse("https://www.omdbapi.com/?$movieName"),);
       if(response.statusCode ==200) {
         responseJson = json.decode(response.body.toString());
       }
