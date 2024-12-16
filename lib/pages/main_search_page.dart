@@ -47,7 +47,7 @@ class MainSearchPage extends StatelessWidget{
                         behavior: SnackBarBehavior.floating,
                         margin: const EdgeInsets.all(5),
                       ));
-                    }else if (state is LoadingState || state is LoadMoreState){
+                    }else if (state is LoadingState ){
                       Loader.show(context,progressIndicator:const CircularProgressIndicator());
                     }else if(state is ResponseState){
                       Loader.hide();

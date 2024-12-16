@@ -19,7 +19,7 @@ class ErrorState extends SearchMovieState{
 
   ErrorState(this.errorMsg);
 }
-
-class LoadMoreState extends SearchMovieState{
-
-}
+//
+// class LoadMoreState extends SearchMovieState{
+//
+// }
